@@ -1,0 +1,131 @@
+/*my profile component*/
+.userProfile{
+    background-color: white;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.sent-request{
+    background-color: rgb(229, 229, 238);
+}
+
+/*my profile bar and sent request bar*/
+.myProfile-bar{
+    display: flex;
+    height: 40px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px;
+    background-color: black;  
+    border-radius: 20px;
+}
+
+.sent-request-bar{                 
+    display: flex;
+    height: 40px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px;
+    background-color: black;  
+}
+/*text inside my profile bar*/
+.bar-name p{
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin: auto; 
+    font-size: medium;   
+}
+
+/*profile infos*/
+  .infos{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+  }
+
+  .email{
+    margin-left: 490px;
+    margin-top: 50px;
+    
+}
+
+.userName{
+    font-size: xx-large;
+    
+}
+
+.profile-component {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-rows: 685px;
+    grid-column-gap:30px;
+}
+
+.edit-save-btn{
+    margin-left: 540px;
+    width: 70px;
+    height: 6px;
+    padding: 15px;
+    background-color: #3681cc;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #ffffff;
+    line-height:1px;
+    border-radius: 15px;
+}
+
+/*profileField component input*/
+input {
+    width: 120px;
+}
+
+.points {  
+    color:white;
+    height: 70px;
+    width: 70px;
+    background-color:#3681cc; 
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+.requests-box{
+    background-color: white;
+    margin: 6px;
+    width: 500px;
+    height: 100px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.requests-btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.edit-btn{ 
+    width: 70px;
+    height: 25px;
+    background-color: #3681cc;
+    font-size: 12px;
+    color: #ffffff;
+    line-height:1px;
+    border-radius: 15px;
+}
+
+/*.delete-btn {  
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    font-size: 12px;
+    color: #ffffff;
+    line-height:1px;
+    border-radius: 15px;
+}*/
