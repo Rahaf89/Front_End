@@ -17,7 +17,7 @@ class Search extends Component {
   };
 
   makeApiCall = searchInput => {
-    var searchUrl = `http://localhost:5000/services?text=u:ward`;
+    var searchUrl = `http://localhost:5000/services?text=${searchInput}`;
     fetch(searchUrl)
       .then(response => {
 
